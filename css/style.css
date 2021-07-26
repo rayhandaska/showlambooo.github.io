@@ -45,7 +45,9 @@ li {
 
 .container {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
+
 }
 
 .container-md {
@@ -75,8 +77,12 @@ li {
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
 }
 
 .logo {
@@ -362,8 +368,9 @@ li {
 .jualan {
   position: absolute;
   top: 25%;
-  left: 11.5%;
+  left: 11.8%;
   font-size: 2.5rem;
+  max-width: 120rem;
 }
 
 .produk1 {
@@ -520,6 +527,8 @@ li {
   top: 28%;
   left: 38%;
   font-size: 2.3rem;
+  max-width: 120rem;
+  justify-content: center;
 }
 
 .keranjang {
@@ -566,9 +575,8 @@ li {
 
 .sort {
   position: absolute;
-  margin-left: 92%;
+  margin-left: 85%;
   margin-bottom: 10%;
-  width: 15%;
   font-size: 1.8rem;
 }
 
@@ -576,4 +584,5 @@ li {
   position: absolute;
   width: 100%;
   object-fit: contain;
+  max-width: 120rem;
 }
