@@ -20,13 +20,16 @@ navClose.addEventListener("click", () =>{
     }
 });
 
-document.getElementById('btn7').onclick = function change_image()
+
+document.getElementById('btn3').onclick = function change_image()
 {
-    document.getElementById("indo4").src="./image/sell4.png";
+    document.getElementById("indo2").src="/image/sells2.png";
 }
-document.getElementById('btn8').onclick = function change_image()
+document.getElementById('btn4').onclick = function change_image()
 {   
-    document.getElementById("indo4").src="./image/sells4.png";
+    document.getElementById("indo2").src="/image/sellss2.png";
 }
-
-
+document.getElementById('btn5').onclick = function change_image()
+{   
+    document.getElementById("indo2").src="/image/sellsss2.png";
+}

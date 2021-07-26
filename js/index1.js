@@ -22,17 +22,17 @@ navClose.addEventListener("click", () =>{
 
 document.getElementById('btn1').onclick = function change_image()
 {
-    document.getElementById("indo1").src="./image/sell1.png";
+    document.getElementById("indo1").src="/image/sell1.png";
 }
 document.getElementById('btn2').onclick = function change_image()
 {   
-    document.getElementById("indo1").src="./image/sellss1.png";
+    document.getElementById("indo1").src="/image/sellss1.png";
 }
 document.getElementById('btn6').onclick = function change_image()
 {
-    document.getElementById("indo1").src="./image/sellsss1.png";
+    document.getElementById("indo1").src="/image/sellsss1.png";
 }
 document.getElementById('btn9').onclick = function change_image()
 {   
-    document.getElementById("indo1").src="./image/sells1.png";
+    document.getElementById("indo1").src="/image/sells1.png";
 }
